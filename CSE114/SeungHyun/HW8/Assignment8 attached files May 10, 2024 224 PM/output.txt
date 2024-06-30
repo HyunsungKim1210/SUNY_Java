@@ -1,0 +1,182 @@
+msg1.from:    
+msg1.to:      
+msg1.date:    
+msg1.subject: 
+msg1.length:  0
+msg1.body:    
+
+msg1.from:                   alee@sunyk.ac.kr
+msg1.to:                     jdoe@gmail.com
+msg1.date:                   Fri, Apr 19, 2022 at 11:41 PM
+msg1.returnReceiptRequested: false
+msg1.subject:                Department Meeting
+msg1.length:                 107
+msg1.body:                   Please make it to the meeting. We will be discussing recent faculty hires and impending curriculum changes.
+
+msg2.from:                   onoh@gmail.com
+msg2.to:                     cjones@sunyk.ac.kr
+msg2.date:                   Tue, Apr 23, 2019 at 8:23 AM
+msg2.returnReceiptRequested: true
+msg2.subject:                Midterm 4
+msg2.length:                 33
+msg2.body:                   Objects will be in the midterm 4.
+
+msg2.length:  42
+msg2.body:    Note: the 4th midterm EXCLUDES ArrayLists.
+
+msg2 is important (T/F): false
+msg1 is important (T/F): true
+
+Printing msg1 using print:
+  From:                      alee@sunyk.ac.kr
+  To:                        jdoe@gmail.com
+  Date:                      Fri, Apr 19, 2022 at 11:41 PM
+  ReturnReceiptRequested:    false
+  Sbuject:                   Department Meeting
+  Length:                    107
+  Body:                      Please make it to the meeting. We will be discussing recent faculty hires and impending curriculum changes.
+
+Printing msg1 twice using toString this time:
+(alee@sunyk.ac.kr, jdoe@gmail.com, Department Meeting)
+(alee@sunyk.ac.kr, jdoe@gmail.com, Department Meeting)
+
+Printing all of them with print:
+  From:                      alee@sunyk.ac.kr
+  To:                        jdoe@gmail.com
+  Date:                      Fri, Apr 19, 2022 at 11:41 PM
+  ReturnReceiptRequested:    false
+  Sbuject:                   Department Meeting
+  Length:                    107
+  Body:                      Please make it to the meeting. We will be discussing recent faculty hires and impending curriculum changes.
+
+  From:                      onoh@gmail.com
+  To:                        cjones@sunyk.ac.kr
+  Date:                      Tue, Apr 23, 2019 at 8:23 AM
+  ReturnReceiptRequested:    true
+  Sbuject:                   Midterm 4
+  Length:                    42
+  Body:                      Note: the 4th midterm EXCLUDES ArrayLists.
+
+  From:                      abc@sunykorea.ac.kr
+  To:                        gabc@gmail.com
+  Date:                      Wed, Apr 2, 2021 at 9:12 PM
+  ReturnReceiptRequested:    false
+  Sbuject:                   Test 1
+  Length:                    17
+  Body:                      This is a test 1.
+
+  From:                      nbc@sunyk.ac.kr
+  To:                        gnbc@sunykorea.ac.kr
+  Date:                      Thu, Apr 3, 2022 at 7:24 AM
+  ReturnReceiptRequested:    false
+  Sbuject:                   Meeting time changed
+  Length:                    17
+  Body:                      This is a test 2.
+
+  From:                      cbs@sunyk.ac.kr
+  To:                        gcbs@cs.stonybrook.edu
+  Date:                      Fri, Apr 4, 2022 at 11:43 AM
+  ReturnReceiptRequested:    true
+  Sbuject:                   New deadline
+  Length:                    23
+  Body:                      With a kite and plunge.
+
+  From:                      cbs@sunyk.ac.kr
+  To:                        gcbs@cs.stonybrook.edu
+  Date:                      Fri, Apr 4, 2022 at 11:43 AM
+  ReturnReceiptRequested:    true
+  Sbuject:                   New deadline
+  Length:                    23
+  Body:                      With a kite and plunge.
+
+  From:                      cbs@sunyk.ac.kr
+  To:                        gcbs@cs.stonybrook.edu
+  Date:                      Fri, Apr 4, 2022 at 11:43 AM
+  ReturnReceiptRequested:    true
+  Sbuject:                   New deadline
+  Length:                    23
+  Body:                      With a kite and plunge.
+
+  From:                      gcbs@cs.stonybrook.edu
+  To:                        gabc@gmail.com
+  Date:                      Fri, Apr 4, 2022 at 11:43 AM
+  ReturnReceiptRequested:    true
+  Sbuject:                   New deadline
+  Length:                    23
+  Body:                      With a kite and plunge.
+
+  From:                      gcbs@cs.stonybrook.edu
+  To:                        cbs@sunyk.ac.kr
+  Date:                      Fri, Apr 4, 2022 at 11:43 AM
+  ReturnReceiptRequested:    true
+  Sbuject:                   New deadline
+  Length:                    23
+  Body:                      With a kite and plunge.
+
+  From:                      alee@gmail.com
+  To:                        gnbc@sunykorea.ac.kr
+  Date:                      Thu, Apr 5, 2022 at 7:24 AM
+  ReturnReceiptRequested:    false
+  Sbuject:                   This weekend
+  Length:                    18
+  Body:                      This is a test 9k.
+
+
+Printing all of them with toString:
+(alee@sunyk.ac.kr, jdoe@gmail.com, Department Meeting)
+(onoh@gmail.com, cjones@sunyk.ac.kr, Midterm 4)
+(abc@sunykorea.ac.kr, gabc@gmail.com, Test 1)
+(nbc@sunyk.ac.kr, gnbc@sunykorea.ac.kr, Meeting time changed)
+(cbs@sunyk.ac.kr, gcbs@cs.stonybrook.edu, New deadline)
+(cbs@sunyk.ac.kr, gcbs@cs.stonybrook.edu, New deadline)
+(cbs@sunyk.ac.kr, gcbs@cs.stonybrook.edu, New deadline)
+(gcbs@cs.stonybrook.edu, gabc@gmail.com, New deadline)
+(gcbs@cs.stonybrook.edu, cbs@sunyk.ac.kr, New deadline)
+(alee@gmail.com, gnbc@sunykorea.ac.kr, This weekend)
+
+Printing only important messages with toString:
+(alee@sunyk.ac.kr, jdoe@gmail.com, Department Meeting)
+(nbc@sunyk.ac.kr, gnbc@sunykorea.ac.kr, Meeting time changed)
+(cbs@sunyk.ac.kr, gcbs@cs.stonybrook.edu, New deadline)
+(cbs@sunyk.ac.kr, gcbs@cs.stonybrook.edu, New deadline)
+(cbs@sunyk.ac.kr, gcbs@cs.stonybrook.edu, New deadline)
+(gcbs@cs.stonybrook.edu, gabc@gmail.com, New deadline)
+(gcbs@cs.stonybrook.edu, cbs@sunyk.ac.kr, New deadline)
+
+
+Messages for user gnbc@sunykorea.ac.kr
+  From:                      nbc@sunyk.ac.kr
+  To:                        gnbc@sunykorea.ac.kr
+  Date:                      Thu, Apr 3, 2022 at 7:24 AM
+  ReturnReceiptRequested:    false
+  Sbuject:                   Meeting time changed
+  Length:                    17
+  Body:                      This is a test 2.
+
+  From:                      alee@gmail.com
+  To:                        gnbc@sunykorea.ac.kr
+  Date:                      Thu, Apr 5, 2022 at 7:24 AM
+  ReturnReceiptRequested:    false
+  Sbuject:                   This weekend
+  Length:                    18
+  Body:                      This is a test 9k.
+
+
+
+Messages for user gabc@gmail.com
+  From:                      abc@sunykorea.ac.kr
+  To:                        gabc@gmail.com
+  Date:                      Wed, Apr 2, 2021 at 9:12 PM
+  ReturnReceiptRequested:    false
+  Sbuject:                   Test 1
+  Length:                    17
+  Body:                      This is a test 1.
+
+  From:                      gcbs@cs.stonybrook.edu
+  To:                        gabc@gmail.com
+  Date:                      Fri, Apr 4, 2022 at 11:43 AM
+  ReturnReceiptRequested:    true
+  Sbuject:                   New deadline
+  Length:                    23
+  Body:                      With a kite and plunge.
+
